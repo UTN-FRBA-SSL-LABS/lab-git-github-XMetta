@@ -1,8 +1,8 @@
 #include "operaciones.h"
 
 /* ── sumar — ya implementada, referencia de estilo ───────────────────────── */
-
-int sumar(int a, int b) {
+/* Decidi poner const para asi no pisar las variables en un futuro (porque quise)*/
+int sumar(const int a, const int b) {
     return a + b;
 }
 
